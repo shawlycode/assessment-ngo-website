@@ -1,12 +1,15 @@
-
+import Navbar from './components/navbar/Navbar'
 import './App.css'
+import Header from './components/hero/Header'
 
 function App() {
 
 
   return (
     <>
-      <h1 className='text-lg font-bold'>NGO WEBSITE</h1>
+      <Navbar />
+      <Header />
+      {/* <Header /> */}
     </>
   )
 }
